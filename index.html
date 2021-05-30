@@ -1,89 +1,343 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+	<meta name="generator" content="Hugo 0.83.1" />
+    <title>My New Hugo Site</title>
+    
+    
+    <meta name="description" content="" />
+    
+    
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/8.6.3/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/8.6.3/firebase-auth.js"></script>
-    <script defer src="/__/firebase/8.6.3/firebase-database.js"></script>
-    <script defer src="/__/firebase/8.6.3/firebase-firestore.js"></script>
-    <script defer src="/__/firebase/8.6.3/firebase-functions.js"></script>
-    <script defer src="/__/firebase/8.6.3/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/8.6.3/firebase-storage.js"></script>
-    <script defer src="/__/firebase/8.6.3/firebase-analytics.js"></script>
-    <script defer src="/__/firebase/8.6.3/firebase-remote-config.js"></script>
-    <script defer src="/__/firebase/8.6.3/firebase-performance.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
+
+
+
+
+
+
+  
+
+
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/style.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+<link rel="icon" type="image/png" href="/images/favicon_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_2.png" />
+
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+    <link rel="stylesheet" href="/css/sections/home.css"/>
+    <link rel="stylesheet" href="/css/sections/about.css"/>
+    <link rel="stylesheet" href="/css/sections/skills.css"/>
+    <link rel="stylesheet" href="/css/sections/experiences.css"/>
+    <link rel="stylesheet" href="/css/sections/education.css"/>
+    <link rel="stylesheet" href="/css/sections/projects.css"/>
+    <link rel="stylesheet" href="/css/sections/recent-posts.css"/>
+    <link rel="stylesheet" href="/css/sections/achievements.css"/>
+    <link rel="stylesheet" href="/css/sections/accomplishments.css"/>
+    
+    
+    
   </head>
-  <body>
-    <div id="message">
-      <h2>Welcome Raman Tandon !!!</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+  <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar initial-navbar" id="top-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <img src="/images/inverted-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_2.png" id="logo" alt="Logo">My New Hugo Site</a>
+    <button
+      class="navbar-toggler navbar-dark"
+      id="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+      </ul>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+  </div>
+  
+  <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  <img src="/images/inverted-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+</nav>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid home" id="home">
+  <style>
+     
+    #homePageBackgroundImageDivStyled {
+        
+      background-image: url('http://example.org/images/default-background_hu3d03a01dcc18bc5be0e67db3d8d209a6_1182514_500x0_resize_q75_box.jpg');
+    }
+     
+    @media (min-width: 500px) and (max-width: 800px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('http://example.org/images/default-background_hu3d03a01dcc18bc5be0e67db3d8d209a6_1182514_800x0_resize_q75_box.jpg');
         }
-      });
-    </script>
+    }
+    @media (min-width: 801px) and (max-width: 1200px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('http://example.org/images/default-background_hu3d03a01dcc18bc5be0e67db3d8d209a6_1182514_1200x0_resize_q75_box.jpg');
+        }
+    }
+    @media (min-width: 1201px) and (max-width: 1500px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('http://example.org/images/default-background_hu3d03a01dcc18bc5be0e67db3d8d209a6_1182514_1500x0_resize_q75_box.jpg');
+        }
+    }
+    @media (min-width: 1501px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('http://example.org/images/default-background.jpg');
+        }
+    }
+    </style>
+    <span class="on-the-fly-behavior"></span>
+  <div
+    id="homePageBackgroundImageDivStyled"
+    class="background container-fluid"
+  ></div>
+  <div class="container content text-center">
+    <img src="/images/default-avatar_hu9bf48a08e17db6472c2e32b73058a6bb_47653_148x148_fit_box_2.png"
+      class="rounded-circle mx-auto d-block img-fluid"
+      alt="Author Image"
+    />
+    <h1 class="greeting">  Jane Doe</h1>
+    <div class="typing-carousel">
+      <span id="ityped" class="ityped"></span>
+      <span class="ityped-cursor"></span>
+    </div>
+    <ul id="typing-carousel-data">
+      
+    </ul>
+    
+  </div>
+</div>
+
+    
+    
+
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+        </div>
+        
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>Stay up to date with email notification</p>
+            
+             
+              <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+                  <small id="emailHelp" class="form-text text-muted">We&#39;ll never share your email with anyone else.</small>
+                </div>
+                <button type="submit" class="btn btn-info">Submit</button>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_2.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2021 Copyright.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    <script src="/js/itype.min.js"></script>
+    <script src="/js/github-button.js"></script>
+    <script src="/js/home.js"></script>
+    <script src="/js/jquery.filterizr.min.js"></script>
   </body>
 </html>
