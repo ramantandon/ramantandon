@@ -3,6 +3,13 @@ languageCode: en-us
 title: Raman's Portfolio (Under development)
 theme: "toha"
 
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+languages:
+  en:
+    languageName: English
+    weight: 1
+
 # Site parameters
 params:
   # Set background image (free download - https://wallpaperaccess.com/4k-ultra-hd-technology) #3320201.jpg
@@ -15,4 +22,8 @@ params:
     main: images/devops-logo.png
     inverted: images/devops-inverted-logo.png
     favicon: images/favicon.png
+
+  # GitHub repo URL of your site
+  gitRepo: https://github.com/ramantandon/ramantandon
+
 

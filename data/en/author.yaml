@@ -1,0 +1,16 @@
+# some information about you
+name: "Raman Tandon"
+nickname: "Raman"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/raman.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "raman@example.com"
+  phone: "+0123456789"
+
+# some summary about what you do
+summary:
+  - I am a Devops Engineer
+  - I work on cloud technologies
+  - I love to work on challenging projects
