@@ -1,3 +1,11 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: Raman's Portfolio (Under development)
+
+# Site parameters
+params:
+  logo:
+    main: images/devops-logo.png
+    inverted: images/devops-inverted-logo.png
+    favicon: images/devops-logo.png
+
