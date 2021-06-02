@@ -22,8 +22,20 @@ params:
     main: images/devops-logo.png
     inverted: images/devops-inverted-logo.png
     favicon: images/favicon.png
+  
+  # Enable global emoji support
+  enableEmoji: true
 
-  # GitHub repo URL of your site
-  gitRepo: https://github.com/ramantandon/ramantandon
+  # Footer
+  footer:
+    enable: true
+  
+  # Newsletter
+  newsletter:
+    enable: false
+  
+  # specify whether you want to write some blog posts or not
+  enableBlogPost: false
+
 
 
