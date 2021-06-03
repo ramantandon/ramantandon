@@ -11,16 +11,30 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: "/images/sections/skills/kubernetes.png"
+- name: Google Cloud Platform
+  logo: "/images/sections/skills/gcp.png"
+  summary: "Google Cloud Platform (GCP)"
+  url: "https://cloud.google.com/"
+
+- name: Amazon Web Services
+  logo: "/images/sections/skills/aws.png"
+  summary: "Amazon Web Services (AWS)"
+  url: "https://aws.amazon.com/"
+
+- name: Google Kubernetes Engine
+  logo: "/images/sections/skills/gke.png"
   summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+  url: "https://cloud.google.com/kubernetes-engine"
 
-- name: Go Development
-  logo: "/images/sections/skills/go.png"
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+- name: Terraform
+  logo: "/images/sections/skills/terraform.png"
+  summary: "Infrastructure as code software"
+  url: "https://terraform.io/"
 
-- name: Cloud Computing
-  logo: "/images/sections/skills/cloud.png"
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: Databases / Data Warehouses
+  logo: "/images/sections/skills/database-logo.png"
+  summary: "CloudSQL, BigQuery, Snowflake, MySQL, Cassandra, Redis, RDS"
+
+- name: Operational Tools
+  summary: "Docker, Kubernetes, Git, GitLab, Bitbucket, Nexus"
+
