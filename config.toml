@@ -1,0 +1,9 @@
+title = "@chakshutandon"
+description = "Chakshu Tandon's personal homepage."
+baseURL = "https://chakshutandon.com"
+languageCode = "en-us"
+theme = "uilite"
+
+DefaultContentLanguage = "en"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
